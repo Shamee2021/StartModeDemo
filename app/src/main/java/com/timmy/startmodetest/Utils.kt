@@ -7,7 +7,7 @@ import androidx.core.content.ContextCompat.startActivity
 import java.lang.Exception
 
 fun getActivityByIndex(index: Int) = when (index) {
-    1 -> MainActivity::class.java
+    1 -> FirstActivity::class.java
     2 -> SecondActivity::class.java
     3 -> ThirdActivity::class.java
     else -> null
@@ -29,7 +29,7 @@ fun getCharByIndex(index: Int) = when (index) {
 
 /**
  * 本App預設有三個頁面，供使用者設定：
- * 1 -> MainActivity
+ * 1 -> FirstActivity
  * 2 -> SecondActivity
  * 3 -> ThirdActivity
  * */

@@ -5,7 +5,7 @@ import androidx.core.view.isVisible
 import androidx.databinding.DataBindingUtil
 import com.timmy.startmodetest.databinding.ActivityMainBinding
 
-class MainActivity : BaseActivity() {
+class FirstActivity : BaseActivity() {
     lateinit var mBinding: ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

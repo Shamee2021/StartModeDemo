@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StartModeTest">
         <activity
-            android:name=".MainActivity"
+            android:name=".FirstActivity"
             android:launchMode="standard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +23,7 @@
         <activity
             android:name=".SecondActivity"
             android:exported="true"
-            android:launchMode="standard" />
+            android:launchMode="singleInstance" />
 
         <activity
             android:name=".ThirdActivity"
